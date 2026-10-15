@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="InventoryEngine.Browser/InventoryEngine.Browser.csproj" />
+  <Project Path="InventoryEngine.Desktop/InventoryEngine.Desktop.csproj" />
+  <Project Path="InventoryEngine/InventoryEngine.csproj" />
+</Solution>
