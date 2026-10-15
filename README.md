@@ -1,21 +1,23 @@
 # inventory-engine
 
-Engine de inventário com slots, stacks, peso e transferências parciais.
+A small inventory engine and UI demo with slots, stack limits, weight, and partial transfers.
 
-## Desktop
+## Run
 
-```sh
+Requires the .NET 10 SDK. Browser builds also need the WebAssembly workload: `dotnet workload install wasm-tools`.
+
+### Desktop
+
+~~~sh
 dotnet run --project InventoryEngine.Desktop/InventoryEngine.Desktop.csproj
-```
+~~~
 
-## Browser
+### Browser
 
-Requer o workload wasm-tools do .NET 10.
-
-```sh
+~~~sh
 dotnet run --project InventoryEngine.Browser/InventoryEngine.Browser.csproj
-```
+~~~
 
-## Exemplo
+## Example
 
-Transfira cinco itens do primeiro slot da mochila para o baú.
+Move five items from the backpack to the chest.
